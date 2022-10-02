@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="calc">
+        <input id="number_input" placeholder="0">
+        <br>
+        <button class="btn" onclick="pressHandler(1)">1</button>
+        <button class="btn" onclick="pressHandler(2)">2</button>
+        <button class="btn" onclick="pressHandler(3)">3</button>
+        <button class="btn" onclick="pressHandler('+')">+</button>
+        <br>
+        <button class="btn" onclick="pressHandler(4)">4</button>
+        <button class="btn" onclick="pressHandler(5)">5</button>
+        <button class="btn" onclick="pressHandler(6)">6</button>
+        <button class="btn" onclick="pressHandler('-')">-</button>
+        <br>
+        <button class="btn" onclick="pressHandler(7)">7</button>
+        <button class="btn" onclick="pressHandler(8)">8</button>
+        <button class="btn" onclick="pressHandler(9)">9</button>
+        <button class="btn" onclick="pressHandler('*')">*</button>
+        <br>
+        <button class="btn" onclick="pressHandler('.')">.</button>
+        <button class="btn" onclick="pressHandler(0)">0</button>
+        <button class="btn" onclick="clearHandler()">c</button>
+        <button class="btn" onclick="pressHandler('/')">/</button>
+        <br>
+        <button class="btnEqual" onclick="equalHandler()">=</button>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
